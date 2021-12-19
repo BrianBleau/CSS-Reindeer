@@ -1,0 +1,142 @@
+.main {
+  height: 20rem;
+  width: 20rem;
+  background-color: snow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-color: brown;
+  z-index: 1;
+}
+
+.antlerLeft {
+  height: 6rem;
+  width: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(143, 74, 74);
+  position: absolute;
+  top: 1rem;
+  left: 7rem;
+  transform: rotateZ(-30deg);
+}
+
+.prong1 {
+  position: absolute;
+  height: 2rem;
+  width: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(143, 74, 74);
+  top: 1rem;
+  left: 0.8rem;
+  transform: rotateZ(55deg);
+}
+
+.prong2 {
+  position: absolute;
+  height: 2rem;
+  width: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(143, 74, 74);
+  top: 2rem;
+  left: -0.8rem;
+  transform: rotateZ(-45deg);
+}
+
+.antlerRight {
+  height: 6rem;
+  width: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(143, 74, 74);
+  position: absolute;
+  top: 1rem;
+  left: 13rem;
+  transform: rotateZ(30deg);
+}
+
+.prong4 {
+  position: absolute;
+  height: 2rem;
+  width: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(143, 74, 74);
+  top: 1rem;
+  left: 0.8rem;
+  transform: rotateZ(55deg);
+}
+
+.prong3 {
+  position: absolute;
+  height: 2rem;
+  width: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(143, 74, 74);
+  top: 2rem;
+  left: -0.8rem;
+  transform: rotateZ(-45deg);
+}
+
+.face {
+  height: 4rem;
+  width: 5rem;
+  border-radius: 2rem;
+  background-color: rgb(156, 95, 95);
+  position: absolute;
+  top: 10rem;
+  left: 8rem;
+}
+
+.nose {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  top: 9rem;
+  left: 9.6rem;
+  z-index: 5;
+}
+
+.eyeLeft {
+  height: 2.5rem;
+  width: 3rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 7.5rem;
+  left: 7.2rem;
+}
+
+.eyeRight {
+  height: 2.5rem;
+  width: 3rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 7.5rem;
+  left: 10.8rem;
+}
+
+.pupil {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 1rem;
+}
+
+.mouth {
+  height: 3rem;
+  width: 4rem;
+  border-radius: 2rem;
+  border-bottom: 8px solid black;
+  position: absolute;
+  left: 0.5rem;
+  top: -0.5rem;
+}
